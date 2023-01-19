@@ -9,8 +9,8 @@ int main(void)
 {
    
     Configurar_PLL(_50MHZ); //Experimento 1
-    Configurar_GPIO();
-    Configura_Reg_PWM0(10000); //Configuro a 10kHz el pwm Experimento 1
+    Configura_Reg_PWM0(8); //Configuro a 10kHz el pwm Experimento 1
+    
     while(1)
     { 
         
